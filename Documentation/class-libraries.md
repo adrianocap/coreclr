@@ -14,7 +14,7 @@ Platform-specific Class Libraries
 
 Platform-specific libraries are bound to a single .NET platform (e.g. .NET Framework on Windows) and can therefore take significant dependencies on a known execution environment. Such an environment will expose a known set of APIs (.NET and OS APIs) and will maintain and expose expected state (e.g. Windows registry). 
 
-Developers who create plaform specific libraries can fully exploit the underlying platform. The libraries will only ever run on that given platform, making platform checks or other forms of conditional code unnecessary (modulo single sourcing code for multiple platforms).
+Developers who create platform specific libraries can fully exploit the underlying platform. The libraries will only ever run on that given platform, making platform checks or other forms of conditional code unnecessary (modulo single sourcing code for multiple platforms).
 
 Platform-specific libraries have been the primary class library type for the .NET Framework. Even as other .NET platforms emerged, platform-specific libraries remained the dominant library type.
 
